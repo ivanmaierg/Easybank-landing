@@ -1,0 +1,19 @@
+$font:'Public Sans', sans-serif;
+$font-size:16px;
+$size-mobile: 375px;
+$size-desktop: 1440px;
+$test:1px solid red;
+
+$primary-dark-blue: hsl(233, 26%, 24%);
+$primary-lim-green: hsl(136, 65%, 51%);
+$primary-bright-cyan: hsl(192, 70%, 51%);
+
+$neutral-grayish-blue: hsl(233, 8%, 62%);
+$neutral-light-grayish-blue: hsl(220, 16%, 96%);
+$neutral-very-light-gray: hsl(0, 0%, 98%);
+$white:hsl(0, 0%, 100%);
+
+$gradient:linear-gradient(to right,$primary-lim-green,$primary-bright-cyan);
+
+$font-sm:0.875rem;
+$font-med:1.25rem;

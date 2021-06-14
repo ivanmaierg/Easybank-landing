@@ -1,2 +1,10 @@
 @import 'variables';
+@import 'mixins/mixins';
 @import 'globals';
+@import 'utilities';
+
+
+@import 'components/header';
+@import 'components/button';
+@import 'components/hamburguer-menu';
+@import 'components/menu-modal'

@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Frontend Mentor | Easybank landing page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Frontend Mentor | Easybank landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
-<body>
 
-  Home
+<body>
+    <header class="header border">
+        <nav class="flex flex-jc-sb flex-ai-c">
+            <a href="/" class="header__logo">
+                <img src="./images/logo.svg " alt="EasyBank logo " />
+            </a>
+            <div class="header__menu hide-for-desktop">
+                <div class="header__menu-burger"></div>
+            </div>
+
+
+            </div>
+            <div class="header__links hide-for-mobile">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
+            <a class="button header__cta hide-for-mobile" href="#">Request invite</a>
+        </nav>
+    </header>
+    <div class="menu__modal hide-for-desktop">
+        <div class="menu__modal--content hide-for-desktop">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+    </div>
+        <!-- Home
   About
   Contact
   Blog
@@ -88,11 +119,9 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  © Easybank. All Rights Reserved -->
+
+        <script src="./js/script.js "></script>
 </body>
+
 </html>

@@ -1,0 +1,10 @@
+button,.button {
+    background:$gradient;
+    border-radius: 50px;
+    color:white;
+    cursor: pointer;
+    font-family: $font;
+    font-size: $font-sm;
+    font-weight: 700;
+    padding:0.875rem 2.875rem;
+}

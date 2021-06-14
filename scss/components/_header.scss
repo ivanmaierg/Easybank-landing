@@ -1,0 +1,52 @@
+.header{
+    nav {
+        padding: 1.0625rem 1.5rem;
+    }
+    &__logo{
+        img{
+            width: 8.875rem;
+            height: 1.5625rem;
+        }
+    }
+     // Mobile Menu
+
+    &__links {
+        > a{   
+            position: relative;
+            height: 100%;
+            font-size: $font-sm;
+            color:$neutral-grayish-blue;
+            transition:color 150ms ease-in-out;
+            &::before{
+                content:"" ;
+                width: 0;
+                left: 50%;
+                transition:all 150ms ease-in-out;
+            }
+            &:not(:last-child){
+                margin-right: 32px;
+            }
+            &:hover{
+                color:$primary-dark-blue;
+                &::before{
+                content:"" ;
+                position: absolute;
+                width: 100%;
+                display: block;
+                height: 5px;
+                left:0px;
+                bottom:-31px;
+                background:$gradient;
+                border-radius: 5px;
+            }
+            }
+        }
+        
+    }
+    &__cta{
+        color: white!important;
+    }
+    &__cta:hover{
+        color: white!important;
+    }
+}
