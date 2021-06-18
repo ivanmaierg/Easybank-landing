@@ -1,10 +1,15 @@
 button,.button {
+    display: inline-block;
     background:$gradient;
     border-radius: 50px;
-    color:white;
+    color:white!important;
     cursor: pointer;
     font-family: $font;
     font-size: $font-sm;
     font-weight: 700;
     padding:0.875rem 2.875rem;
+    transition: opacity ease-in-out 150ms;
+}
+button:hover,.button:hover {
+    opacity: 0.75;
 }

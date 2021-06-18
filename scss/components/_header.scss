@@ -1,15 +1,18 @@
 .header{
-    nav {
-        padding: 1.0625rem 1.5rem;
-    }
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+    @include breakpoint-up(large){
+        position: relative;
+                
+            }
     &__logo{
         img{
             width: 8.875rem;
             height: 1.5625rem;
         }
     }
-     // Mobile Menu
-
     &__links {
         > a{   
             position: relative;
@@ -42,11 +45,5 @@
             }
         }
         
-    }
-    &__cta{
-        color: white!important;
-    }
-    &__cta:hover{
-        color: white!important;
     }
 }

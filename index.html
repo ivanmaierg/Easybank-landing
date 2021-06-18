@@ -16,15 +16,13 @@
 
 <body>
     <header class="header border">
-        <nav class="flex flex-jc-sb flex-ai-c">
-            <a href="/" class="header__logo">
+        <nav class="border flex flex-jc-sb flex-ai-c container container--pall">
+            <a href="/" class="header__logo flex">
                 <img src="./images/logo.svg " alt="EasyBank logo " />
             </a>
             <div class="header__menu hide-for-desktop">
                 <div class="header__menu-burger"></div>
             </div>
-
-
             </div>
             <div class="header__links hide-for-mobile">
                 <a href="#">Home</a>
@@ -33,24 +31,31 @@
                 <a href="#">Blog</a>
                 <a href="#">Careers</a>
             </div>
-            <a class="button header__cta hide-for-mobile" href="#">Request invite</a>
+            <a class="button  hide-for-mobile" href="#">Request invite</a>
         </nav>
+        <div class="menu__modal hide-for-desktop container--pall">
+            <div class="menu__modal--content hide-for-desktop">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
     </header>
-    <div class="menu__modal hide-for-desktop">
-        <div class="menu__modal--content hide-for-desktop">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Blog</a>
-            <a href="#">Careers</a>
-    </div>
-        <!-- Home
-  About
-  Contact
-  Blog
-  Careers
+    <section class="hero">
+        <div class="container">
+            <div class="hero__image">
+                <!-- <img src="./images/image-mockups.png"> -->
+            </div>
+            <div class="hero__text container container--pall">
+                <h1> Next generation digital banking</h1>
+                <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+                <a class="button hero__cta" href="#">Request invite</a>
+            </div>
+        </div>
+    </section>
 
-  Request Invite
+    <!-- Home
 
 
 
@@ -121,7 +126,7 @@
 
   © Easybank. All Rights Reserved -->
 
-        <script src="./js/script.js "></script>
+    <script src="./js/script.js "></script>
 </body>
 
 </html>
