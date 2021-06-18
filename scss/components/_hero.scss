@@ -82,6 +82,9 @@
       font-size: $font-lg;
       font-weight: 400;
     }
+    .hero__cta{
+      margin-top: 1.9rem;
+    }
     @include breakpoint-up(large){
       flex: 2;
       order: 1;
