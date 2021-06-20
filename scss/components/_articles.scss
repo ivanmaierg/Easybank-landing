@@ -1,5 +1,5 @@
 .articles{
-    background-color: $neutral-very-light-gray;
+    background-color: $neutral-light-grayish-blue;
     &__content{
         h2{
             color: $primary-dark-blue;
@@ -29,6 +29,10 @@
     border-radius: 0.3125rem;
     overflow: hidden;
     background-color: $white;
+    transition: all ease-in 150ms;
+    &:hover{
+        box-shadow: 0 7px 17px -3px #0000002f;
+    }
     &__image{
         height: 12.5rem;
         background-position: center center;
@@ -48,6 +52,10 @@
             font-size: $font-med;
             line-height: 1.15;
             font-weight: 300;
+            transition: color ease-in 100ms;
+            &:hover{
+                color: $primary-lim-green;
+            }
         }
         &--body{
             text-align: justify;

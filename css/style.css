@@ -324,7 +324,7 @@ button:hover, .button:hover {
         padding-right: 2rem; } }
 
 .articles {
-  background-color: #fafafa; }
+  background-color: #f3f4f6; }
   .articles__content h2 {
     color: #2d314d;
     font-weight: 300;
@@ -348,7 +348,10 @@ button:hover, .button:hover {
   .articles .article {
     border-radius: 0.3125rem;
     overflow: hidden;
-    background-color: white; }
+    background-color: white;
+    transition: all ease-in 150ms; }
+    .articles .article:hover {
+      box-shadow: 0 7px 17px -3px #0000002f; }
     .articles .article__image {
       height: 12.5rem;
       background-position: center center;
@@ -365,7 +368,10 @@ button:hover, .button:hover {
         color: #2d314d;
         font-size: 1.25rem;
         line-height: 1.15;
-        font-weight: 300; }
+        font-weight: 300;
+        transition: color ease-in 100ms; }
+        .articles .article__text--title:hover {
+          color: #31d35c; }
       .articles .article__text--body {
         text-align: justify;
         font-size: 0.85rem; }
