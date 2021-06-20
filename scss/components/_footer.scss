@@ -1,0 +1,87 @@
+.footer{
+    background-color:$primary-dark-blue;
+    color:$white;
+    padding:2.5rem 2rem 2rem 2rem;
+    text-align: center;
+    @include breakpoint-up(large){
+        display: grid;
+        grid-template-columns:repeat(3,1fr) 2fr ;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "logo links1 links2 cta1"
+        "social links1 links2 cta2";
+    }
+    a{
+        color: $white;
+    }
+    &__logo{
+        display: inline-block;
+        margin-bottom: 1.875rem;
+        @include breakpoint-up(large){
+            margin: auto;
+            grid-area: logo;
+            justify-self: start;
+            align-self: flex-start;
+        }
+    }
+    &__social{
+
+        margin-bottom: 1.875rem;
+        a:not(:last-child){
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        @include breakpoint-up(large){
+            margin: auto;
+            grid-area: social;
+        }
+        a > img:hover{
+            filter: sepia(100%) hue-rotate(85deg) brightness(90%) saturate(700%) contrast(100%);
+        }
+    }
+    &__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2.25;
+        text-align: center;
+        @include breakpoint-up(large){
+            text-align: left;
+            align-items: flex-start;
+        }
+        &.col1{
+            @include breakpoint-up(large){
+            margin: auto;
+            grid-area: links1;
+        }
+        }
+        &.col2{
+            margin-bottom: 1.875rem;
+            @include breakpoint-up(large){
+            margin: auto;
+            grid-area: links2;
+            }
+        }
+    }
+    &__links > a:hover{
+        text-decoration: underline;
+    }
+    &__cta{
+        
+        a.button{
+            margin-bottom: 1.875rem;
+        }
+        @include breakpoint-up(large){
+            margin: auto;
+            grid-area: cta1;
+            text-align: right;
+        }
+    }
+    &__copyright{
+        @include breakpoint-up(large){
+            margin: auto;
+            grid-area: cta2;
+            text-align: right;
+        }
+    }
+}

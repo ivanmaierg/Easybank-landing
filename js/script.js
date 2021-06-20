@@ -12,4 +12,3 @@ $menuBtn.addEventListener("click", () => {
 
     isMenuOpen = !isMenuOpen;
 });
-console.log(isMenuOpen)
