@@ -166,9 +166,6 @@ button:hover, .button:hover {
 .header__menu.open .header__menu-burger::after {
   transform: rotate(-45deg) translate(35px, 35px); }
 
-.menu__modal--content a:hover {
-  color: #31d35c; }
-
 .menu__modal {
   opacity: 0;
   transition: all ease-in-out 150ms;
