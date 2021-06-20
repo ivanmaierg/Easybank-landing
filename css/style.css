@@ -214,7 +214,7 @@ button:hover, .button:hover {
       align-items: center; } }
   .hero__image {
     position: relative;
-    background-image: url("./images/bg-intro-mobile.svg");
+    background-image: url("../../images/bg-intro-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -234,7 +234,7 @@ button:hover, .button:hover {
         content: "";
         position: absolute;
         height: 100%;
-        background-image: url("./images/bg-intro-desktop.svg");
+        background-image: url("../../images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 150%;
@@ -245,7 +245,7 @@ button:hover, .button:hover {
       position: absolute;
       width: 100%;
       height: 100%;
-      background-image: url("./images/image-mockups.png");
+      background-image: url("../../images/image-mockups.png");
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom; }
@@ -358,7 +358,7 @@ button:hover, .button:hover {
       background-size: cover;
       background-repeat: no-repeat; }
     .articles .article__text {
-      padding: 1.875rem 1.875rem 2.5rem 1.875rem; }
+      padding: 0.5rem 1.875rem 0.5rem 1.875rem; }
       .articles .article__text--author {
         margin-bottom: 0.75rem;
         font-size: 0.65rem;
