@@ -361,7 +361,7 @@ button:hover, .button:hover {
       padding: 1.875rem 1.875rem 2.5rem 1.875rem; }
       .articles .article__text--author {
         margin-bottom: 0.75rem;
-        font-size: 12px;
+        font-size: 0.65rem;
         color: #9698a6; }
       .articles .article__text--title {
         margin-bottom: 1rem;
@@ -374,7 +374,7 @@ button:hover, .button:hover {
           color: #31d35c; }
       .articles .article__text--body {
         text-align: justify;
-        font-size: 0.85rem; }
+        font-size: 0.75rem; }
 
 .footer {
   background-color: #2d314d;
