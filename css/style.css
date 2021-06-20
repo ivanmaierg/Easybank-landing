@@ -166,6 +166,9 @@ button:hover, .button:hover {
 .header__menu.open .header__menu-burger::after {
   transform: rotate(-45deg) translate(35px, 35px); }
 
+.menu__modal--content a:hover {
+  color: #31d35c; }
+
 .menu__modal {
   opacity: 0;
   transition: all ease-in-out 150ms;
@@ -199,9 +202,12 @@ button:hover, .button:hover {
     background-color: white; }
     .menu__modal.open .menu__modal--content > a {
       font-size: 1.25rem;
-      color: #2d314d; }
+      color: #2d314d;
+      transition: color ease-in-out 150ms; }
     .menu__modal.open .menu__modal--content > a:not(:last-child) {
       margin-bottom: 1.5rem; }
+    .menu__modal.open .menu__modal--content > a:hover {
+      color: #31d35c; }
 
 .menu__modal--content {
   display: none; }

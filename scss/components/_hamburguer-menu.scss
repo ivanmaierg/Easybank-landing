@@ -43,3 +43,7 @@
 .header__menu.open .header__menu-burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
+
+.menu__modal--content a:hover{
+  color: $primary-lim-green;
+}
