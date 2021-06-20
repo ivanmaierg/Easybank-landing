@@ -9,10 +9,12 @@
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
         "logo links1 links2 cta1"
-        "social links1 links2 cta2";
+        "social links1 links2 copyright";
+        justify-items: start;
     }
     a{
         color: $white;
+        font-size: $font-sm;
     }
     &__logo{
         display: inline-block;
@@ -47,7 +49,9 @@
         text-align: center;
         @include breakpoint-up(large){
             text-align: left;
-            align-items: flex-start;
+            justify-content: space-between;
+            align-items: start;
+
         }
         &.col1{
             @include breakpoint-up(large){
@@ -72,16 +76,22 @@
             margin-bottom: 1.875rem;
         }
         @include breakpoint-up(large){
-            margin: auto;
+            margin: 0;
             grid-area: cta1;
-            text-align: right;
+            align-self: center;
+            justify-self: end;
+
+            a.button{
+                margin: auto;
+            }
         }
     }
     &__copyright{
         @include breakpoint-up(large){
-            margin: auto;
-            grid-area: cta2;
-            text-align: right;
+            grid-area: copyright;
+            align-self: end;
+            justify-self: end;
+            font-size: $font-sm;
         }
     }
 }
