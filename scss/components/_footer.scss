@@ -37,8 +37,8 @@
             margin: auto;
             grid-area: social;
         }
-        a > img:hover{
-            filter: sepia(100%) hue-rotate(85deg) brightness(90%) saturate(700%) contrast(100%);
+        a:hover > svg > path{
+            fill: $primary-lim-green;
         }
     }
     &__links{

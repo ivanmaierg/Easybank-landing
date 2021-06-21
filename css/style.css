@@ -413,8 +413,8 @@ button:hover, .button:hover {
       .footer__social {
         margin: auto;
         grid-area: social; } }
-    .footer__social a > img:hover {
-      filter: sepia(100%) hue-rotate(85deg) brightness(90%) saturate(700%) contrast(100%); }
+    .footer__social a:hover > svg > path {
+      fill: #31d35c; }
   .footer__links {
     display: flex;
     flex-direction: column;
