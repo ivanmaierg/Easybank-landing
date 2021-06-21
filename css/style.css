@@ -217,7 +217,7 @@ button:hover, .button:hover {
       align-items: center; } }
   .hero__image {
     position: relative;
-    background-image: url("/images/bg-intro-mobile.svg");
+    background-image: url("../images/bg-intro-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -237,7 +237,7 @@ button:hover, .button:hover {
         content: "";
         position: absolute;
         height: 100%;
-        background-image: url("/images/bg-intro-desktop.svg");
+        background-image: url("../images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 150%;
@@ -248,7 +248,7 @@ button:hover, .button:hover {
       position: absolute;
       width: 100%;
       height: 100%;
-      background-image: url("/images/image-mockups.png");
+      background-image: url("../images/image-mockups.png");
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom; }
