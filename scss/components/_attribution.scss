@@ -1,0 +1,16 @@
+.attribution {
+    display: flex;
+    justify-content: center;
+    background-color:$neutral-light-grayish-blue;
+    color:$primary-dark-blue;
+    font-size: $font-sm;
+
+}
+p{
+    margin: auto;
+    a{
+        text-transform:capitalize;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
