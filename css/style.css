@@ -270,7 +270,8 @@ button:hover, .button:hover {
     .hero__text h1 {
       color: #2d314d;
       font-size: 2.25rem;
-      font-weight: 400; }
+      font-weight: 400;
+      margin-bottom: 1.9rem; }
     .hero__text .hero__cta {
       margin-top: 1.9rem; }
     @media (min-width: 64rem) {
